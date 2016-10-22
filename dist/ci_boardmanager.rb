@@ -51,7 +51,7 @@ rescue => e
   bmdata['packages'][0]['websiteURL'] = 'http://example.com'
   bmdata['packages'][0]['email'] = 'default@example.com'
   STDERR.puts(e)
-  raise e if not force
+  #raise e if not force
 end
 
 
